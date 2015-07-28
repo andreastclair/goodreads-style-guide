@@ -1,6 +1,6 @@
 # goodreads-style-guide
 
-#Table of Contents 
+###Table of Contents 
 
 - Colors
 - Typography
