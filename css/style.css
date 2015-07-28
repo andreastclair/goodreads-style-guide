@@ -52,35 +52,40 @@ body {
 span {
   font-family: "futura-pt",sans-serif; }
 
+p.top {
+  font-size: 14px;
+  font-size: 0.875em;
+  color: #C8D6D5;
+  margin-top: 20px; }
+
 .section {
-  padding-top: 160px; }
+  padding-top: 40px; }
 
 .style-guide {
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
-  padding: 50px 0; }
+  padding: 30px 0; }
 
 .guide-content {
-  width: 70%;
-  margin: 0 auto; }
+  width: 85%;
+  margin: 30px auto; }
 
 .horiz-line {
   width: 100%;
   border-top: 1px solid #C8D6D5;
-  margin: 180px 0 0 0; }
+  margin: 65px 0 0 0; }
 
 header {
-  position: fixed;
   background-color: white;
   top: 0;
-  padding-top: 20px; }
+  padding-top: 5px;
+  margin: 0 auto; }
 
 nav {
-  margin: 25px 0 35px 0;
+  margin: 35px auto;
   background-color: #5EAFBD;
   padding: 8px 0;
-  text-align: center;
-  width: 100%; }
+  text-align: center; }
 
 a {
   text-decoration: none;
@@ -91,20 +96,14 @@ a {
 h1 {
   font-family: "futura-pt",sans-serif;
   font-weight: light;
-  font-size: 56px;
-  font-size: 3.5em;
+  font-size: 28.8px;
+  font-size: 1.8em;
   text-align: center;
-  color: #171717; }
+  color: #171717;
+  margin-bottom: 30px; }
 
 .bold {
   font-weight: bold; }
-
-h2 {
-  color: #B2D8AF;
-  font-size: 48px;
-  font-size: 3em;
-  font-weight: bold;
-  text-align: center; }
 
 h3 {
   margin-top: 25px;
@@ -173,7 +172,7 @@ span.reg-link {
   height: 100px;
   padding: 10px;
   display: inline-block;
-  margin: 20px 20px 0 0; }
+  margin: 20px 20px 10px 0; }
 
 .one {
   background-color: #5EAFBD; }
@@ -239,7 +238,7 @@ span.reg-link {
 .buttons {
   height: 30px;
   width: 70px;
-  margin-top: 5px; }
+  margin: 5px 0 10px 0; }
 
 .avatar {
   background-color: #C8D6D5;
@@ -269,7 +268,8 @@ span.reg-link {
 
 .friends {
   height: 31px;
-  width: 31px; }
+  width: 31px;
+  margin-bottom: 10px; }
 
 .book {
   background-color: #C8D6D5;
@@ -309,7 +309,8 @@ span.reg-link {
 
 .desktop-ad {
   width: 90px;
-  height: 117px; }
+  height: 117px;
+  margin-bottom: 10px; }
 
 .stars {
   margin-top: 10px;
@@ -327,5 +328,17 @@ span.reg-link {
 .status {
   width: 221px;
   margin-bottom: 0; }
+
+@media screen and (min-width: 1150px) {
+  .style-guide {
+    width: 80%; }
+
+  .guide-content {
+    width: 70%;
+    margin: 60px auto; }
+
+  h1 {
+    font-size: 56px;
+    font-size: 3.5em; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,38 @@
+@media screen and (min-width: 1150px) {
+
+
+// ===============================
+// GR Redesign
+// ===============================
+
+.style-guide {
+	width: 80%;
+}
+
+.guide-content {
+	width: 70%;
+	margin: 60px auto;
+}
+
+.horiz-line {
+}
+
+h1 {
+	@include font(3.5);
+}
+
+}
+
+
+
+
+// @import 'mid-media';
+// @import 'mid2-media';
+// @import 'mid3-media';
+// @import 'max-media';
+
+
+
+
+
+

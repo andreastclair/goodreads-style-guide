@@ -19,38 +19,45 @@ body {
 	font-family: "futura-pt",sans-serif;
 }
 
+p.top {
+	@include font(0.875);
+	color: $grgrey;
+	margin-top: 20px;
+}
+
 .section {
-	padding-top: 160px;
+	padding-top: 40px;
 }
 
 .style-guide {
-	width: 75%;
+	width: 85%;
 	margin: 0 auto;
-	padding: 50px 0;
+	padding: 30px 0;
 }
 
 .guide-content {
-	width: 70%;
-	margin: 0 auto;
+	width: 85%;
+	margin: 30px auto;
 }
 
 .horiz-line {
 	width: 100%;
 	border-top: 1px solid $grgrey;
-	margin: 180px 0 0 0;
+	margin: 65px 0 0 0;
 }
+
 header {
-	position: fixed;
 	background-color: white;
 	top: 0;
-	padding-top: 20px;
+	padding-top: 5px;
+	margin: 0 auto;
 }
+
 nav {
-	margin: 25px 0 35px 0;
+	margin: 35px auto;
 	background-color: $grblue;
 	padding: 8px 0;
 	text-align: center;
-	width: 100%;
 }
 
 a {
@@ -64,20 +71,14 @@ a {
 h1 {
 	font-family: "futura-pt",sans-serif;
 	font-weight: light;
-	@include font(3.5);
+	@include font(1.8);
 	text-align: center;
 	color: $black;
+	margin-bottom: 30px;
 }
 
 .bold {
 	font-weight: bold;
-}
-
-h2 {
-	color: $ltgreen;
-	@include font(3);
-	font-weight: bold;
-	text-align: center;
 }
 
 h3 {
@@ -111,6 +112,7 @@ p {
 	font-family: "Arial";
 	line-height: 1.8;
 	@include font(1.2);
+	// margin: 10px 0;
 }
 
 li {
@@ -151,7 +153,7 @@ span.reg-link {
 	height: 100px;
 	padding: 10px;
 	display: inline-block;
-	margin: 20px 20px 0 0;
+	margin: 20px 20px 10px 0;
 }
 .one {
 	background-color: $grblue;
@@ -226,7 +228,7 @@ span.reg-link {
 .buttons {
 	height: 30px;
 	width: 70px;
-	margin-top: 5px;
+	margin: 5px 0 10px 0;
 }
 
 // USER IMAGES
@@ -258,6 +260,7 @@ span.reg-link {
 .friends {
 	height: 31px;
 	width: 31px;
+	margin-bottom: 10px;
 }
 
 // BOOKS
@@ -299,6 +302,7 @@ span.reg-link {
 .desktop-ad {
 	width: 90px;
 	height: 117px;
+	margin-bottom: 10px;
 }
 
 // RATINGS
@@ -328,7 +332,7 @@ span.reg-link {
 // @import 'mid-media';
 // @import 'mid2-media';
 // @import 'mid3-media';
-// @import 'max-media';
+@import 'max-media';
 
 
 
