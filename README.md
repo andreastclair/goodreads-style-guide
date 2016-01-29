@@ -1,4 +1,4 @@
-# goodreads-style-guide
+# style-guide
 
 ###Table of Contents 
 
